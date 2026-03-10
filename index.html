@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeybStore — магазин клавиатур</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- Font Awesome для иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo" data-nav="home">Keyb<span>Store</span></a>
+            <nav>
+                <ul>
+                    <li><a data-nav="home">Главная</a></li>
+                    <li><a data-nav="cart">Корзина <span class="cart-icon"><i class="fas fa-shopping-cart"></i><span id="cart-count" class="cart-count">0</span></span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Главная страница (лендинг) -->
+        <section id="home-section" class="section">
+            <h1>Популярные клавиатуры</h1>
+            <div id="products-grid" class="products-grid"></div>
+        </section>
+
+        <!-- Страница товара -->
+        <section id="product-section" class="section hidden">
+            <div id="product-detail-container" class="product-detail">
+                <!-- Заполняется динамически -->
+            </div>
+            <a class="back-link" data-nav="home"><i class="fas fa-arrow-left"></i> Вернуться к покупкам</a>
+        </section>
+
+        <!-- Корзина -->
+        <section id="cart-section" class="section hidden">
+            <h1>Корзина</h1>
+            <div id="cart-container" class="cart-container">
+                <!-- Заполняется динамически -->
+            </div>
+        </section>
+
+        <!-- Страница политики конфиденциальности -->
+        <section id="privacy-section" class="section hidden">
+            <div class="privacy-container">
+                <h2>Политика конфиденциальности</h2>
+                <p>Мы уважаем вашу конфиденциальность и обязуемся защищать ваши персональные данные. Эта политика объясняет, как мы собираем, используем и раскрываем информацию о вас при посещении нашего сайта.</p>
+                <p><strong>Сбор информации:</strong> Мы можем собирать информацию, которую вы предоставляете нам напрямую, например, при оформлении заказа или подписке на рассылку. Также мы автоматически собираем определенные данные о вашем устройстве и действиях на сайте с помощью cookies и аналогичных технологий.</p>
+                <p><strong>Использование информации:</strong> Ваши данные используются для обработки заказов, улучшения работы сайта, персонализации контента и рекламы, а также для связи с вами по вопросам обслуживания.</p>
+                <p><strong>Защита данных:</strong> Мы применяем соответствующие технические и организационные меры для защиты вашей информации от несанкционированного доступа, изменения или уничтожения.</p>
+                <p><strong>Ваши права:</strong> Вы имеете право запросить доступ, исправление или удаление ваших персональных данных. Для связи с нами используйте контакты, указанные в футере.</p>
+                <p>Последнее обновление: 11 марта 2026 г.</p>
+            </div>
+            <a class="back-link" data-nav="home"><i class="fas fa-arrow-left"></i> Вернуться на главную</a>
+        </section>
+    </main>
+
+    <!-- Футер с контактами и ссылкой на политику -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-contacts">
+                <span><i class="fas fa-envelope"></i> <a href="mailto:support@keybstore.ru">support@keybstore.ru</a></span>
+                <span><i class="fas fa-phone"></i> <a href="tel:+78001234567">8 (800) 123-45-67</a></span>
+                <span><i class="fab fa-telegram"></i> <a href="#">@keybstore</a></span>
+            </div>
+            <div class="footer-links">
+                <a id="privacy-link" data-nav="privacy">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+</html>
