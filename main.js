@@ -193,7 +193,7 @@
 
             document.getElementById('clear-cart').addEventListener('click', clearCart);
             document.getElementById('checkout').addEventListener('click', () => {
-                alert('Спасибо за заказ! (Демо-режим)');
+                prompt('Введите почту для связи с вами');
                 clearCart();
                 showHome();
             });
