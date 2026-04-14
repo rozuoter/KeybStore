@@ -3,7 +3,13 @@
             { id: 1, name: 'Mechanical Keyboard K1', price: 99.99, description: 'Механическая клавиатура с синими переключателями, подсветка RGB, алюминиевая панель. Идеальный выбор для печати и игр.', image: './src/image/1.png' },
             { id: 2, name: 'Gaming Keyboard G2', price: 129.99, description: 'Игровая клавиатура с красными переключателями, программируемые макросы, полная RGB-подсветка и магнитная подставка для рук.', image: './src/image/2.png' },
             { id: 3, name: 'Wireless Keyboard W3', price: 79.99, description: 'Беспроводная клавиатура с тихими мембранными переключателями, работает от батареек до 6 месяцев, компактный дизайн.', image: './src/image/3.png' },
-            { id: 4, name: 'Compact Keyboard C4', price: 89.99, description: 'Компактная 60% клавиатура с коричневыми переключателями, съёмный кабель USB-C, идеально для путешествий.', image: './src/image/4.png' }
+            { id: 4, name: 'Compact Keyboard C4', price: 89.99, description: 'Компактная 60% клавиатура с коричневыми переключателями, съёмный кабель USB-C, идеально для путешествий.', image: './src/image/4.png' },
+            { id: 5, name: 'Compact Keyboard C4', price: 89.99, description: 'Компактная 60% клавиатура с коричневыми переключателями, съёмный кабель USB-C, идеально для путешествий.', image: './src/image/5.png' },
+            { id: 6, name: 'Compact Keyboard C4', price: 89.99, description: 'Компактная 60% клавиатура с коричневыми переключателями, съёмный кабель USB-C, идеально для путешествий.', image: './src/image/6.png' },
+            { id: 7, name: 'Compact Keyboard C4', price: 89.99, description: 'Компактная 60% клавиатура с коричневыми переключателями, съёмный кабель USB-C, идеально для путешествий.', image: './src/image/7.png' },
+            { id: 8, name: 'Compact Keyboard C4', price: 89.99, description: 'Компактная 60% клавиатура с коричневыми переключателями, съёмный кабель USB-C, идеально для путешествий.', image: './src/image/8.png' },
+            { id: 9, name: 'Compact Keyboard C4', price: 89.99, description: 'Компактная 60% клавиатура с коричневыми переключателями, съёмный кабель USB-C, идеально для путешествий.', image: './src/image/9.png' },
+            { id: 10, name: 'Compact Keyboard C4', price: 89.99, description: 'Компактная 60% клавиатура с коричневыми переключателями, съёмный кабель USB-C, идеально для путешествий.', image: './src/image/10.png' },
         ];
 
         // Корзина
